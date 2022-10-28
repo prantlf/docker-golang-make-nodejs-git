@@ -2,8 +2,6 @@
 
 [Docker] image: Go language on Alpine Linux with Makei, Node.js and Git
 
-[![prantlf/golang-make-nodejs-git](http://dockeri.co/image/prantlf/golang-make-nodejs-git)](https://hub.docker.com/repository/docker/prantlf/golang-make-nodejs-git/)
-
 [This image] is supposed to build and test web browser applications written in [Go]. Back-end often uses `make` as a build tool, which is added by this image. Front-end often contains static assets distributed by [NPM], which include dependencies pulled by [Git], and bundled using build tools running in [Node.js].  This image is built automatically on the top of the tag [`alpine`] from the [golang repository], so that it always runs the current version of [Go] in the latest [Alpine Linux]. [Make], [Node.js], [NPM] and [Git] have to be updated from time to time by triggering a new build manually.
 
 If you have trouble pulling the image from the Docker's default hub.docker.com, try gitlab.com, where [this project] is primarily maintained: `registry.gitlab.com/prantlf/docker-golang-make-nodejs-git`.
@@ -56,7 +54,7 @@ The local images are built as `golang-make-nodejs-git` with the appropriate tags
 
 ## License
 
-Copyright (c) 2020-2021 Ferdinand Prantl
+Copyright (c) 2020-2022 Ferdinand Prantl
 
 Licensed under the MIT license.
 
