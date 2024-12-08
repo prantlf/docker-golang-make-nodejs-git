@@ -52,7 +52,7 @@ The local images are built as `golang-make-nodejs-git` with the appropriate tags
 
 ## License
 
-Copyright (c) 2020-2022 Ferdinand Prantl
+Copyright (c) 2020-2024 Ferdinand Prantl
 
 Licensed under the MIT license.
 
